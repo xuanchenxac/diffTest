@@ -8,4 +8,8 @@ public class codes {
     public int add(int a, int b) {
         return a+b;
     }
+
+    private class InnerClass {
+        int b = 2;
+    }
 }
